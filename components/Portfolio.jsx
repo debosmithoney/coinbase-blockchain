@@ -26,7 +26,6 @@ const Portfolio = () => {
             <div>
               {coins.map((coin) => (
                 <>
-                  {/*<div className="coins" coin={coin}></div>*/}
                   <h1>{coin.name}</h1>
                   <div className=" mt-3 border-b border-gray-500 " />
                 </>
@@ -36,17 +35,6 @@ const Portfolio = () => {
         </div>
       </div>
     </div>
-    // <div className="wrapper flex flex-1 justify-center ">
-    //   <div className="content w-full max-w-5xl  px-6 py-4 ">
-    //     <div className="portfolioTable mt-3 border border-gray-500">
-    //       <div className="table w-full">
-    //         <div className="tablerow w-full flex justify-between">
-    //           <div className="tableitem py-3 px-5"></div>
-    //         </div>
-    //       </div>
-    //     </div>
-    //   </div>
-    // </div>
   );
 };
 
