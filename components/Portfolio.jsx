@@ -14,8 +14,8 @@ const Portfolio = () => {
                 <div className="tablerow w-full flex justify-between">
                   <h1 style={{ flex: 3 }}>Name</h1>
                   <h1 style={{ flex: 2 }}>Price</h1>
-                  <h1 style={{ flex: 2 }}>Balance</h1>
-                  <h1 style={{ flex: 1 }}>Allocation</h1>
+                  <h1 style={{ flex: 2 }}>Change</h1>
+                  <h1 style={{ flex: 1 }}>Trade</h1>
                   <div style={{ flex: 0 }}>
                     <BsThreeDotsVertical />
                   </div>
